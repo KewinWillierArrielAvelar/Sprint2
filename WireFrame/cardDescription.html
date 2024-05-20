@@ -22,68 +22,31 @@
 
   <body>
     <!-- Inicio do cabeçalho-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark"
-      aria-label="Thirteenth navbar example"
-    >
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample11"
-          aria-controls="navbarsExample11"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a href="./HomePage.html">
-          <img id="img-logo" src="./assets/Imagens/logo.png" alt=""
-        /></a>
-        <div class="btn btn-dark" id="faq2">
-          <i class="fa fa-question-circle"></i> FAQ
-        </div>
-        <div
-          class="collapse navbar-collapse d-lg-flex justify-content-center"
-          id="navbarsExample11"
-        >
-          <ul class="navbar-nav justify-content-lg-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Perfil </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >Esportes</a
-              >
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Volei</a></li>
-                <li><a class="dropdown-item" href="#">Futebol</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Basquete</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Criar grupo</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mapa</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="btn btn-dark" id="faq1">
-          <i class="fa fa-question-circle"></i> FAQ
-        </div>
+    <!-- Início do cabeçalho -->
+    <header class="cabecalho">
+      <div class="imglogo">
+          <a href="HomePage.html"><img src="assets/imagens/logo.png" alt="Logo MatchPoint"></a>
       </div>
-    </nav>
+      <nav class="secoes">
+          <ul>
+              <li><a href="Perfilvisualizavel.html">Perfil</a></li>
+              <li><a href="#">Criar grupo</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">Esportes</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><p class="texto">Volei</p></a></li>
+                      <li><a class="dropdown-item" href="#"><p class="texto">Futebol</p></a></li>
+                      <li><a class="dropdown-item" href="#"><p class="texto">Basquete</p></a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Mapa</a></li>
+          </ul>
+      </nav>
+      <div class="FAQ">
+          <a href="#"><i class="fa-regular fa-circle-question"></i> FAQ</a>
+      </div>
+  </header>
     <!-- Fim do cabeçalho-->
 
     <!-- Começo perfil -->
